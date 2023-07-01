@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taro</title>
+    <link rel = "shortcut icon" href = "images/favicon.jpg" type = "image/jpg" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  </head>
+  <body>
+    <main>
+<header>
+  <button type="button" class="icon">
+  <a href="https://t.me/+380686385865" target="_blank" class="contact">
+    <img src="images/telegramm.png" alt="telegram" ></a>
+  </button>
+
+  <button type="button" class="icon">
+<a href="mailto:DmytroPopovychFrontend@gmail.com" target="_blank" class="contact">
+  <img src="images/mail.png" alt="mail" class="icons"></a>
+</button>
+
+<button type="button" class="icon">
+<a href="https://www.linkedin.com/in/dmytropopovych/" target="_blank" class="contact">
+  <img src="images/linkedin.png" alt="linkedin" class="icons"></a>
+</button>
+
+<button type="button" class="icon">
+<a href="https://github.com/DmytroPopovych/Tarot" target="_blank" class="contact">
+  <img src="images/github.png" alt="linkedin" class="icons"></a>
+</button>
+
+</header>
+
+
+
+    <section class="goal">
+      <h2 class="question">Запитати Таро</h2>
+      <input type="text"  class="question-input" placeholder="?" id="goal" autofocus>
+      <div class="shafl">
+        <button type="submit" class="btn" id="mix">Здати карти</button>
+      </div>
+    </section>
+    
+    <div id="goal-container"></div>
+      
+    <section class="table" id="table">
+      
+      <div class="left">
+         <h3 class="title">Що було</h3>
+           <div class="card ">
+              <div class="front">
+                <img src="images/shirtleft.jpg" alt="shirt">
+              </div>              
+              <div class="back number-left 1active"></div>
+          </div>
+          <p class="definition-text definition-left"></p>
+          <div class="definition-min"></div>
+        </div>
+        
+        <div class="center">
+          <h3 class="title">Що буде</h3>  
+          <div class="card">     
+            <div class="front">
+              <img src="images/shirtcenter.jpg"  alt="shirt">
+            </div>               
+            <div class="back number-center 1active"></div>
+          </div>
+          <p class="definition-text definition-center"></p>
+          <div class="definition-min"></div>
+        </div>
+        
+        <div class="right">
+          <h3 class="title">Чим серце заспокоється</h3>
+          <div class="card">
+            <div class="front">
+              <img src="images/shirtright.jpg"  alt="shirt">
+            </div>
+            <div class="back number-right 1active"></div>
+          </div>   
+          <p class="definition-text definition-right"></p>
+          <div class="definition-min"></div>
+          </div>
+        
+          
+        </section>  
+        <section class="definitionMax">
+        <div class="definition-max"></div>  
+      </section>
+  </main>
+
+
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>
