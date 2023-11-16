@@ -105,26 +105,38 @@ rightDefinition, leftDefinitionReverse, centerDefinitionReverse, rightDefinition
       //Задаемо значення карт та пояснень
       function packaging () {
         if(direction[0] == 1){
-          numberLeft.innerHTML = `<img src="${leftFace}" style="transform: rotate(180deg)"/>`;
+          numberLeft.innerHTML = `<img src="${leftFace}" 
+          alt="Sorry for this server limitation, please reload the page, everything will be fine in the future"
+          style="transform: rotate(180deg)"/>`;
           definitionLeft.innerHTML = `<h3>Що було</h3>`+`<br><br>`+`<p>${leftDefinitionReverse}</p>`;   
         }else{
-          numberLeft.innerHTML = `<img src="${leftFace}"/>`;
+          numberLeft.innerHTML = `<img src="${leftFace}" 
+          alt="Sorry for this server limitation, please reload the page, everything will be fine in the future"
+          />`;
           definitionLeft.innerHTML = `<h3>Що було</h3>`+`<br><br>`+`<p>${leftDefinition}</p>`;  
         };
 
         if(direction[1] == 1){
-          numberCenter.innerHTML = `<img src="${centerFace}" style="transform: rotate(180deg)"/>`;
+          numberCenter.innerHTML = `<img src="${centerFace}"  
+          alt="Sorry for this server limitation, please reload the page, everything will be fine in the future"
+          style="transform: rotate(180deg)"/>`;
           definitionCenter.innerHTML = `<h3>Що буде</h3>`+`<br><br>`+`<p>${centerDefinitionReverse}</p>`;
         }else{
-          numberCenter.innerHTML = `<img src="${centerFace}"/>`;
+          numberCenter.innerHTML = `<img src="${centerFace}" 
+          alt="Sorry for this server limitation, please reload the page, everything will be fine in the future"
+          />`;
           definitionCenter.innerHTML = `<h3>Що буде</h3>`+`<br><br>`+`<p>${centerDefinition}</p>`;
         };
 
         if(direction[2] == 1){
-          numberRight.innerHTML = `<img src="${rightFace}" style="transform: rotate(180deg)"/>`;
+          numberRight.innerHTML = `<img src="${rightFace}"  
+          alt="Sorry for this server limitation, please reload the page, everything will be fine in the future"
+          style="transform: rotate(180deg)"/>`;
           definitionRight.innerHTML = `<h3>Чим серце заспокоється</h3>`+`<br><br>`+`<p>${rightDefinitionReverse}</p>`;
         }else{
-          numberRight.innerHTML = `<img src="${rightFace}"/>`;
+          numberRight.innerHTML = `<img src="${rightFace}" 
+          alt="Sorry for this server limitation, please reload the page, everything will be fine in the future"
+          />`;
           definitionRight.innerHTML = `<h3>Чим серце заспокоється</h3>`+`<br><br>`+`<p>${rightDefinition}</p>`;
         };  
         //Обнуляємо чинник оріентації карт     
